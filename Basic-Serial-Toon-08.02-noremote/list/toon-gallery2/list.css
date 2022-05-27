@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* Icon */
+.list-board .wr-notice { background:#fafafa; margin-bottom:15px; }
+.list-board .wr-notice li { background:none; }
+.list-board .wr-vicon { position:absolute; left:15px; bottom:12px; color: rgba(255,255,255,0.8); font-size:32px; z-index:1; text-shadow: 1px 1px 1px #000; }
+.list-board .wr-none { padding:50px 0px; text-align:center; color:#888; }
+
+/* List */
+.list-body .list-box { position:relative; border:1px solid #ddd; background:#fff; }
+.list-body .list-front { position:relative; }
+.list-body .list-box:hover,
+.list-body .list-box.active { border-width:3px; border-style:solid; overflow:hidden; }
+.list-body .list-box:hover .list-front,
+.list-body .list-box.active .list-front { margin:-2px; overflow:hidden; }
+.list-body .list-chk { position:absolute; left:15px; top:12px; z-index:2; }
+.list-body .list-text .div-title-underline-thin { margin:0px 0px 2px; padding:0px 0px 2px; padding-right:1px; letter-spacing:-1px; }
+
+.list-body .list-img { position:relative; }
+.list-body .list-img .list-thumb { position:relative; overflow:hidden; max-height:360px; }
+.list-body .list-img .list-thumb .wr-img { width:100%; height:auto; }
+.list-body .list-img .thumb-icon { position:absolute; left:0; top:0; width:100%; height:100%; }
+.list-body .list-img .thumb-icon .wr-fa { position:absolute; left:0; top:50%; width:100%; text-align:center; font-size:50px; margin-top:-25px; }
+.list-body .list-img .wr-date { position:absolute; right:15px; bottom:12px; font-size:16px; color: rgba(255,255,255,0.8); text-shadow: 1px 1px 1px #000; z-index:2; letter-spacing:-1px; }
+.list-body .list-text { padding:3px; }
+.list-body .list-desc { line-height:20px; overflow:hidden; margin-bottom:20px; }
+.list-body .list-desc strong { display:block; font-size:16px; font-weight:normal; }
+.list-body .list-info .pull-right i { margin-left:10px; margin-right:2px; }
+.list-body .list-info .wr-mb { display:inline-block; width:34px; height:34px; border-radius:50%; background:#eee; color:#fff; margin-right:4px; vertical-align:middle; }
+.list-body .list-info .wr-mb img { width:34px; height:34px; border-radius:50%; }
+.list-body .list-info .wr-mb i { width:34px; height:34px; line-height:34px; text-align:center; font-size:20px; border-radius:50%; }
+
+/* Photo */
+.list-body.is-photo .list-info,
+.list-body.is-photo .list-info.pull-left,
+.list-body.is-photo .list-info.pull-right { line-height: 34px; }
+.list-body.is-photo .list-text { padding:15px 15px 10px; }
+
+/* Hover Border */
+.color-body.list-body .list-box:hover,
+.color-body.list-body .list-box.active { border-color: rgb(233, 27, 35); }
+
+.red-body.list-body .list-box:hover,
+.red-body.list-body .list-box.active { border-color: rgb(233, 27, 35); }
+
+.darkred-body.list-body .list-box:hover,
+.darkred-body.list-body .list-box.active { border-color: rgb(170, 60, 63); }
+
+.crimson-body.list-body .list-box:hover,
+.crimson-body.list-body .list-box.active { border-color: rgb(220, 20, 60); }
+
+.orangered-body.list-body .list-box:hover,
+.orangered-body.list-body .list-box.active { border-color: orangered; }
+
+.orange-body.list-body .list-box:hover,
+.orange-body.list-body .list-box.active { border-color: rgb(240, 150, 20); }
+
+.green-body.list-body .list-box:hover,
+.green-body.list-body .list-box.active { border-color: rgb(140, 195, 70); }
+
+.lightgreen-body.list-body .list-box:hover,
+.lightgreen-body.list-body .list-box.active { border-color: rgb(160, 200, 80); }
+
+.deepblue-body.list-body .list-box:hover,
+.deepblue-body.list-body .list-box.active { border-color: rgb(0, 125, 180); }
+
+.skyblue-body.list-body .list-box:hover,
+.skyblue-body.list-body .list-box.active { border-color: rgb(100, 195, 245); }
+
+.blue-body.list-body .list-box:hover,
+.blue-body.list-body .list-box.active { border-color: rgb(52, 152, 219); }
+
+.navy-body.list-body .list-box:hover,
+.navy-body.list-body .list-box.active { border-color: rgb(50, 60, 70); }
+
+.violet-body.list-body .list-box:hover,
+.violet-body.list-body .list-box.active { border-color: rgb(85, 60, 125); }
+
+.yellow-body.list-body .list-box:hover,
+.yellow-body.list-body .list-box.active { border-color: rgb(241, 196, 15); }
+
+.darkgray-body.list-body .list-box:hover,
+.darkgray-body.list-body .list-box.active { border-color: #666; }
+
+.gray-body.list-body .list-box:hover,
+.gray-body.list-body .list-box.active { border-color: #888; }
+
+.lightgray-body.list-body .list-box:hover,
+.lightgray-body.list-body .list-box.active { border-color: #ddd; }
+
+.black-body.list-body .list-box:hover,
+.black-body.list-body .list-box.active { border-color: #333; }
+
+.white-body.list-body .list-box:hover,
+.white-body.list-body .list-box.active { border-width:1px; border-color: #fff; }
+.white-body.list-body .list-box:hover .list-front,
+.white-body.list-body .list-box.active .list-front { margin:0px; }
+
+/* Style */
+.box-body.list-body .list-img { margin: 10px 10px 0px; }
+
+.round-body.list-body .list-img { margin: 10px 10px 0px; border-radius:15px; }
+.round-body.list-body .list-img .wr-img,
+.round-body.list-body .list-img .thumb-icon{ border-radius:15px; }
+.round-body.list-body .shadow-line { margin:0px 15px; }
+
+.line-body.list-body .list-box { border-left:0; border-top:0; border-right:0; }
+.line-body.list-body .list-box:hover .list-front,
+.line-body.list-body .list-box.active .list-front { margin:0px 0px -2px; }
+.line-body.list-body .list-text { padding-left:10px !important; padding-right:10px !important; }
+
+.line-round-body.list-body .list-box { border-left:0; border-top:0; border-right:0; }
+.line-round-body.list-body .list-box:hover .list-front,
+.line-round-body.list-body .list-box.active .list-front { margin:0px 0px -2px; }
+.line-round-body.list-body .list-img { border-radius:15px; }
+.line-round-body.list-body .list-img .wr-img,
+.line-round-body.list-body .list-img .thumb-icon{ border-radius:15px; }
+.line-round-body.list-body .shadow-line { margin:0px 15px; }
+.line-round-body.list-body .list-text { padding-left:10px !important; padding-right:10px !important; }
+
+.in-lable { position: absolute;	bottom:0px; width:100%; left:0px; padding: 0px 10px; font-size: 15px; line-height: 35px; }
